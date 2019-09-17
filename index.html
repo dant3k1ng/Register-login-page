@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+    <head>
+        <title>Register panel</title>
+
+        <meta charset="utf-8">
+        <meta name='author' content='Stanisław Dudzik'>
+
+        <link rel='stylesheet' type='text/css' href='main.css'>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+
+        <script src="https://kit.fontawesome.com/06d92676bb.js"></script>
+    </head>
+    <body>
+        <div class='main-box'>
+            <div class='register-box'>
+                <h2>Register</h2>
+                <form>
+                   <div id='input'> <input type="text" placeholder="Name" id='name'> </div>
+                   <div id='input'> <input type="text" placeholder="Last Name" id='lastname'> </div>
+                   <div id='input'> <input type="email" placeholder="E-mail" id='email'>  </div> 
+                   <div id='input'> <input type="password" placeholder="Password" id='password'> <div id='eye'> <i class="far fa-eye-slash"></i> </div> </div>
+                   <div id='password_strength'> </div>
+                   <div id='input'> <input type="password" placeholder="Confirm Password" id='conf-password'> </div>
+                   <div id='input'> <div class='checkbox'> <input type='checkbox' id='check'> I accept all terms of service* </div> </div>
+                   <input type="button" value="Send" class='button' id='btn'>
+                </form>
+            </div>
+            <div class='login-box'>
+                <h2>Log in</h2>
+                <form>
+                    <input type='email' placeholder="E-mail">
+                    <input type="password" placeholder="Password" id='password2'> <div id='eye2'> <i class="far fa-eye-slash"></i> </div>
+                    <input type='button' value="Log in" class='button'>
+                </form>
+            </div>
+        </div>
+    </body>
+    <script type='text/javascript' src='password-mode.js'></script>
+    <script type='text/javascript' src='data-validation.js'></script>
+</html>
